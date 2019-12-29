@@ -1,6 +1,6 @@
 //包含多个路由的数组
 import Home from "@/pages/Home/Home.vue"
-import Categroy from "@/pages/Categroy/Categroy.vue"
+import Category from "@/pages/Category/Category.vue"
 import Shopcart from "@/pages/Shopcart/Shopcart.vue"
 import Profile from "@/pages/Profile/Profile.vue"
 
@@ -12,7 +12,7 @@ export default [
   },
   {
     path:"/categroy",
-    component:Categroy
+    component:Category
   },
   {
     path:"/shopcart",

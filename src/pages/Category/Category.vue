@@ -1,6 +1,6 @@
 <template>
   <div>
-    categroy
+    category
   </div>
 </template>
 
