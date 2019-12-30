@@ -22,7 +22,7 @@ module.exports = {
         plugins: [
           // 配置postcss-px2rem
           px2rem({
-            remUnit: 75   // 设计稿等分后的rem值   375/10
+            remUnit: 75   // 设计稿等分后的rem值   750/10
           })
         ]
       }

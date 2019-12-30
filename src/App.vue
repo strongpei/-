@@ -2,7 +2,7 @@
   <div>
     <!-- 在当前页面显示路由组件 -->
     <router-view></router-view>
-    <Footer/>
+    <Footer v-show="$route.meta.isShowFooter"></Footer>
   </div>
 </template>
 
