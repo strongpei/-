@@ -30,7 +30,9 @@
       <div class="particulars-discount">
         <span class="discount1">满件折</span>
         <span class="discount2">满两件8.5折</span>
-        <span class="discount3"><i class="iconfont icon-gengduo"></i></span>
+        <span class="discount3">
+             <i class="iconfont icon-gengduo"></i>
+        </span>
       </div>
       <div class="particulars-sale">
         <span class="sale1">24小时发货</span>
@@ -87,7 +89,6 @@
           <span>加入购物车</span>
         </div>
       </div>
-      
     </div>
   </div>  
 
@@ -96,9 +97,9 @@
 <script type="text/ecmascript-6">
   import Swiper from "swiper"
   import 'swiper/css/swiper.css'
-  
+
   export default {
-    name: 'FooterGuide',
+    name: 'Footer',
     methods: {
       goto (path) {
         if (this.$route.path!==path) {
